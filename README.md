@@ -42,6 +42,6 @@ Verify result :
 
     dkms status
 
-    modinfo stb0899
+    modinfo stb6100
 
 Reboot and test
