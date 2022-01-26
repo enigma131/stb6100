@@ -1,4 +1,4 @@
-stb6100.c :
+## stb6100.c :
                              : correct lkup[] table
                              : set stb6100_regs[] registers global 
 stb6100_read_reg             : correct single register read
