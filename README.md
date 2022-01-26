@@ -1,6 +1,6 @@
 # stb6100
 
-This module source will create a new Linux kernel demodulator module with enhanced capabilities (Enhance lock capability for low C/N or RF level signals). This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices.
+This module source will create a new Linux kernel demodulator module with enhanced capabilities for low C/N or RF level signals. This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices.
 
 Frontend tweaks (second repository [stb0899](https://github.com/enigma131/stb0899)) can also be used if included in device (my use case).
 
