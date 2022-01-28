@@ -32,8 +32,8 @@ Compile source / Install DKMS:
 
 Verify result :
 
-    dkms status
+    sudo dkms status
 
-    modinfo stb6100
+    sudo modinfo stb6100
 
 Reboot and test
