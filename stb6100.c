@@ -537,8 +537,8 @@ static const struct dvb_tuner_ops stb6100_ops = {
 		.name			= "STB6100 Silicon Tuner",
 // kernel 4.18 and lower part
 /*		.frequency_min		= 950000,
-//		.frequency_max		= 2150000,
-//		.frequency_step		= 0,   */
+		.frequency_max		= 2150000,
+		.frequency_step		= 0,   */
 		.frequency_min_hz	= 950 * MHz,
 		.frequency_max_hz	= 2150 * MHz,
 		.frequency_step_hz	= 0,
