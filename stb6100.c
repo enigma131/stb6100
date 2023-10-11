@@ -582,7 +582,9 @@ static void stb6100_release(struct dvb_frontend *fe)
 	kfree(state);
 }
 
-EXPORT_SYMBOL(stb6100_attach);
+// modification for kernels from and icluding: 6.1.53, 5.15.132, 5.4.257...
+EXPORT_SYMBOL_GPL(stb6100_attach);
+// EXPORT_SYMBOL(stb6100_attach);
 MODULE_PARM_DESC(verbose, "Set Verbosity level");
 
 MODULE_AUTHOR("Manu Abraham, Enigma13");
